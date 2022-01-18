@@ -51,11 +51,24 @@
 
 <!-- own tag -->
 <?php
-if ($own = '?')
-    echo TRUE;
+if ($own == "vv")
+    #echo TRUE;
 ?>
 
+<ul>
+    <?php foreach ($person as $feature => $val) : ?>
+        <li><strong><?= $feature; ?></strong> <?= $val; ?></li>
+    <?php endforeach; ?>
 
+</ul>
+
+<?php  echo '<pre>';
+var_dump($person);
+echo '</pre>'; ?>
+
+<?php echo '<pre>';
+var_dump($sonst = ["fwx", 'thx', "NVME"]);
+echo '</pre>'; ?>
 
 
 </body>

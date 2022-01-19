@@ -1,3 +1,4 @@
+<!-- DO NOT OPEN THIS FILE -->
 <!DOCTYPE html>
 <html lang="EN">
 <head>
@@ -70,6 +71,18 @@ echo '</pre>'; ?>
 var_dump($sonst = ["fwx", 'thx', "NVME"]);
 echo '</pre>'; ?>
 
+<?php
+dump_thinks('Hello', 'World');
+?>
+<blockquote></blockquote>
+<?php
+swap_thinks('World', 'Hello');
+?>
+<blockquote></blockquote>
+
+<?php
+echo $own
+?>
 
 </body>
 </html>

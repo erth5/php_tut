@@ -1,13 +1,6 @@
 <?php
 
 $greeting = 'Hello World';
-
-# Nicht das was es Aussagen soll
-#function own($my, $def_val = 0){
-#    return $_GET['my'] ? $_GET['my'] : $def_val;
-#}
-#$own = htmlspecialchars(isset($_GET['my'])) ? htmlspecialchars($_GET['my']) : FALSE;
-
 $own = isset($_GET['my']);
 
 $names = [
@@ -22,6 +15,7 @@ $person = [
 
 $person['character'] = 'lucky';
 
-# display content
-require 'index.view.php';
 
+# display content
+include 'function.php';
+require 'index.view.php';

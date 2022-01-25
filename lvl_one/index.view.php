@@ -14,6 +14,14 @@
 </head>
 <body>
 
+<?php
+$pdo = connectToDB();
+$tasks = fetchAllTasks($pdo);
+var_dump($tasks[0]->test);
+var_dump($tasks[0]->abfg);
+?>
+
+
 <header>
     <h1>
         <?php

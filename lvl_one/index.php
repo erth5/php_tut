@@ -1,5 +1,4 @@
 <?php
-
 $greeting = 'Hello World';
 $own = isset($_GET['my']);
 
@@ -15,7 +14,13 @@ $person = [
 
 $person['character'] = 'lucky';
 
-
 # display content
-include 'function.php';
+// function
+require 'function.php';
+// classes*
+require 'task.php';
+// output
 require 'index.view.php';
+
+
+

@@ -1,7 +1,7 @@
 <?php
 return[
     'database' => [
-        'name' => 'test',
+        'name' => 'php_tutorial',
         'username' => 'root',
         'password' => '',
         'connection' => 'mysql:host=127.0.0.1',

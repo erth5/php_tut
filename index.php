@@ -25,6 +25,12 @@ require 'function.php';
 // Selector on DB
 $task = $query->selectAll('test');
 
-//after this logik display thinks:
+// own Request
+//require Router::load('routes.php')
+
+//    ->direct(Request::uri());
+
+
+//after this logic display thinks:
 require 'views/index.view.php';
 

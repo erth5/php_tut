@@ -1,9 +1,9 @@
 <?php
 
-/* Umständliche Variante
+/* AufgabenVerteilung Beispiel
 class Contractor{
     public function __construct($electrician, $plumber, $designer){
-        $this->electrian = $electrician;
+        $this->$electrician = $electrician;
         $this->plumber = $plumber;
         $this->designer = $designer;
     }
@@ -18,7 +18,7 @@ class Contractor{
 
 class QueryBuild{
     protected $pdo;
-
+    // who will create the (PDO $pdo) object must pass in the right object
     public function __construct($pdo){
         // Automatically triggered on instantiation
         $this->pdo = $pdo;

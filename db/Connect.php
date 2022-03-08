@@ -28,3 +28,5 @@ class Connect{
         }
     }
 }
+
+// static, because it will call only one time

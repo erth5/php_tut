@@ -1,3 +1,9 @@
+<nav>
+    <ul>
+        <li><a href="../contact.php">Contact Page</a></li>
+    </ul>
+</nav>
+
 <?php
 echo "this text doesn`t understand: /n, but: $a_variable and Line-breaks: <br>";
 echo 'this text doesn`t understand: /n or: $a_variable, but Line-breaks:<br>';
@@ -30,5 +36,7 @@ echo 'this text doesn`t understand: /n or: $a_variable, but Line-breaks:<br>';
         </li>
     <?php endforeach; ?>
 </ul>
+
+<?php var_dump($_SERVER) ?>
 
 <p>End of File</p>
